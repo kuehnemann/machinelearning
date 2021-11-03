@@ -8,8 +8,8 @@ print(df)
 plt.scatter(df['x_1'], df['x_2'])
 plt.show()
 
-def l1norm(x_1,y_1,x_2,y_2):
-    return abs((x_2-x_1)+(y_2-y_1))
+def l1norm(x1,y1,x2,y2):
+    return abs((x2-x1)+(y2-y1))
     
 def l2norm(x1,y1,x2,y2):
     return np.sqrt((x2-x1)**2 + (y2-y1)**2)
